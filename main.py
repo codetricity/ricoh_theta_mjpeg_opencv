@@ -32,7 +32,7 @@ if response.status_code == 200:
             if a != -1 and b != -1:
                 jpg = bytes_[a:b+2]
                 bytes_ = bytes_[b+2:]
-                img = cv2.imdecode(np.fromstring(jpg, dtype=np.uint8), cv2.IMREAD_COLOR)
+                img = cv2.imdecode(np.frombuffer(jpg, dtype=np.uint8), cv2.IMREAD_COLOR)
                 cv2.imshow("Preview", img)
                 if cv2.waitKey(1) == 27:
                     break
