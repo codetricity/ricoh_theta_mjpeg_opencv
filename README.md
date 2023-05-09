@@ -7,7 +7,7 @@ forum. [Original post](https://community.theta360.guide/t/preview-mjpeg-stream-o
 
 The image below is from Robert Katter.
 
-![robert katter screenshot](readme_assets/RicohMJPGPhyton.png)
+![robert katter screenshot](readme_assets/screenshot.jpeg)
 
 ## Overview
 
