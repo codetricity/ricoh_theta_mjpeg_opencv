@@ -7,7 +7,11 @@ forum. [Original post](https://community.theta360.guide/t/preview-mjpeg-stream-o
 
 The image below is from Robert Katter.
 
-![robert katter screenshot](readme_assets/screenshot.jpeg)
+![screenshot](readme_assets/screenshot.jpeg)
+
+## Canny Edge Detection for AI
+
+![canny edge](readme_assets/canny_demo.gif)
 
 ## Overview
 

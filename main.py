@@ -24,6 +24,7 @@ headers = {
     "Content-Type": "application/json;charset=utf-8"
 }
 
+# password only need for client mode
 # response = requests.post(url, auth=HTTPDigestAuth(username, password), json=payload, headers=headers, stream=True)
 response = requests.post(url, json=payload, headers=headers, stream=True)
 
