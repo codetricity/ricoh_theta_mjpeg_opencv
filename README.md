@@ -38,3 +38,15 @@ password = "DigitsOnlyofCameraSerialNumber"
 # username = "THETAYL00105377"
 # password = "00105377"
 ```
+
+## Python Version
+
+You can specify a different version of Python.
+
+If you want to use Python 3.11, you can do this
+
+```text
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt update 
+sudo apt install python3.11
+```

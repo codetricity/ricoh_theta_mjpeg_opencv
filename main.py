@@ -3,14 +3,18 @@ from requests.auth import HTTPDigestAuth
 import cv2
 import numpy as np
 
-url = "http://[Camera IP Address]/osc/commands/execute"
-username = "CameraSerialNumber"
-password = "DigitsOnlyofCameraSerialNumber"
+# url = "http://[Camera IP Address]/osc/commands/execute"
+# username = "CameraSerialNumber"
+# password = "DigitsOnlyofCameraSerialNumber"
 
 # example information
 # url = 'http://192.168.2.101/osc/commands/execute'
-# username = "THETAYL00105377"
-# password = "00105377"
+# username = "THETAYR14010001"
+# password = "14010001"
+
+# access point mode
+url = 'http://192.168.1.1/osc/commands/execute'
+
 
 payload = {
     "name": "camera.getLivePreview"
@@ -20,7 +24,8 @@ headers = {
     "Content-Type": "application/json;charset=utf-8"
 }
 
-response = requests.post(url, auth=HTTPDigestAuth(username, password), json=payload, headers=headers, stream=True)
+# response = requests.post(url, auth=HTTPDigestAuth(username, password), json=payload, headers=headers, stream=True)
+response = requests.post(url, json=payload, headers=headers, stream=True)
 
 if response.status_code == 200:
     bytes_ = bytes()
