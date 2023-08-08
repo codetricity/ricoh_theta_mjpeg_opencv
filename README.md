@@ -24,7 +24,11 @@ THETA cameras.  This example uses OpenCV.
 1. change information below to the IP address and serial number of your camera
 1. if using pipenv, run:
 
+### Installation
+
 ```text
+git clone git@github.com:codetricity/ricoh_theta_mjpeg_opencv.git
+cd ricoh_theta_mjpeg_opencv
 pipenv install
 pipenv shell
 python main.py
@@ -54,3 +58,7 @@ sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt update 
 sudo apt install python3.11
 ```
+
+## Environment
+
+Tested on Linux Ubuntu 22.04 and Windows 11 WSL.
