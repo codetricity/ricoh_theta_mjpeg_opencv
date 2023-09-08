@@ -5,7 +5,6 @@ author : [Robert Katter](https://community.theta360.guide/u/katterr)
 This is a copy of Robert Katter's script from the theta360.guide community
 forum. [Original post](https://community.theta360.guide/t/preview-mjpeg-stream-on-a-ricoh-theta-x-with-python-and-opencv/8919?u=craig)
 
-The image below is from Robert Katter.
 
 ![screenshot](readme_assets/screenshot.jpeg)
 
